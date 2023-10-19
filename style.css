@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+}
+.container {
+    background-color: ghostwhite;
+    justify-content: space-around;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+}
+.Scoreboard {
+    position: relative;
+    width: 575px;
+    height: 385px;
+    background: black;
+}
+h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+.home-text {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 40px;
+}
+.home-points {
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 100px;
+    top: 60px;
+}
+.away-text {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    right: 85px;
+    top: 40px;
+}
+.away-points {
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    right: 100px;
+    top: 60px;
+}
+p {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
+button {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: rgba(248, 248, 255, 0.493);
+    transform: scale(0.9);
+}
+#home-score-btn {
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+}
+#home-1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    right: 453px;
+    top: 271px;
+    border: 2px solid #9AABDB;
+    border-radius: 5px;
+}
+#home-2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    right: 395px;
+    top: 271px;
+    border: 2px solid #9AABDB;
+    border-radius: 5px;
+}
+#home-3 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    right: 337px;
+    top: 271px;
+    border: 2px solid #9AABDB;
+    border-radius: 5px;
+}
+#away-score-btn {
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    right: 82px;
+    top: 271px;
+}
+#away-1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 337px;
+    top: 271px;
+    border: 2px solid #9AABDB;
+    border-radius: 5px;
+}
+#away-2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 395px;
+    top: 271px;
+    border: 2px solid #9AABDB;
+    border-radius: 5px;
+}
+#away-3 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 453px;
+    top: 271px;
+    border: 2px solid #9AABDB;
+    border-radius: 5px;
+}
