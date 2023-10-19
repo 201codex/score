@@ -1,4 +1,4 @@
 # score
-Random project
-Basically an assignment given from a class
-It is a scoreboard
+Random project,
+basically an assignment given from a class,
+it is a scoreboard.
